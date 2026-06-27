@@ -17,3 +17,15 @@ Evidence_Final/Spreadsheets/Google Passwords.csv
 Evidence_Final/Spreadsheets/Google password silent.csv
 Evidence_Final/Spreadsheets/Google Passwords.csv
 Evidence_Final/Spreadsheets/Google password silent.csv
+
+# Live collection
+Cybercrime_Live/
+
+# Generated reports
+reports/*.zip
+
+# Temporary exports
+*.tmp
+
+# Android caches
+*.log.old
