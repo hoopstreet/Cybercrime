@@ -1,0 +1,16 @@
+  PID TTY          TIME CMD
+  898 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+15628 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+15653 ?        00:00:00 /data/data/com.termux/files/usr/bin/runsvdir
+15654 ?        00:00:00 runsv
+15655 ?        00:00:00 runsv
+15656 ?        00:00:00 svlogd
+15657 ?        00:00:00 svlogd
+19361 pts/0    00:00:00 git
+19365 pts/0    00:00:00 /data/data/com.termux/files/usr/libexec/git-core/git
+19366 pts/0    00:00:06 /data/data/com.termux/files/usr/libexec/git-core/git-remote-htt
+19500 pts/0    00:00:00 /data/data/com.termux/files/usr/libexec/git-core/git
+19502 pts/0    00:02:01 /data/data/com.termux/files/usr/libexec/git-core/git
+19907 pts/0    00:00:00 ps
+19908 pts/0    00:00:00 ps
+32552 pts/0    00:00:00 bash

@@ -1,0 +1,132 @@
+--------- beginning of main
+06-27 09:14:42.602 15577 15577 D VRI[PopupWindow:b9a7218]: visibilityChanged oldVisibility=false newVisibility=true
+06-27 09:14:42.604 15577 15577 D VRI[PopupWindow:52a0f13]: visibilityChanged oldVisibility=false newVisibility=true
+06-27 09:14:42.627 15577 17646 D mali_gralloc: register: id=2490000616f, handle=0x7cda2928c0, importpid=15577
+06-27 09:14:42.628 15577 17646 D mali_gralloc: register: id=24900006170, handle=0x7cda2974e0, importpid=15577
+06-27 09:14:42.629 15577 17646 D mali_gralloc: register: id=24900006171, handle=0x7cda297860, importpid=15577
+06-27 09:14:42.629 15577 17646 D mali_gralloc: register: id=24900006172, handle=0x7ccf239220, importpid=15577
+06-27 09:14:42.654 15577 17647 D mali_gralloc: register: id=24900006173, handle=0x7ccb37f380, importpid=15577
+06-27 09:14:42.655 15577 17647 D mali_gralloc: register: id=24900006174, handle=0x7ccb37f620, importpid=15577
+06-27 09:14:42.656 15577 17647 D mali_gralloc: register: id=24900006175, handle=0x7ccb37f8c0, importpid=15577
+06-27 09:14:42.657 15577 17647 D mali_gralloc: register: id=24900006176, handle=0x7ccb37f9a0, importpid=15577
+06-27 09:14:42.712 15577 17649 D mali_gralloc: register: id=24900006177, handle=0x7ccb381bc0, importpid=15577
+06-27 09:14:42.715 15577 17649 D mali_gralloc: register: id=24900006178, handle=0x7ccb381ca0, importpid=15577
+06-27 09:14:42.716 15577 17649 D mali_gralloc: register: id=24900006179, handle=0x7ccb381d80, importpid=15577
+06-27 09:14:42.717 15577 17648 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+06-27 09:14:42.718 15577 17649 D mali_gralloc: register: id=2490000617a, handle=0x7ccb381e60, importpid=15577
+06-27 09:14:42.726 15577 17650 D CCodec  : allocate(c2.android.vorbis.decoder)
+06-27 09:14:42.727 15577 17650 I Codec2-HalSelection: selection: hidl
+06-27 09:14:42.741 15577 17650 I CCodec  : setting up 'default' as default (vendor) store
+06-27 09:14:42.759 15577 15577 W Choreographer: Already have a pending vsync event.  There should only be one at a time.
+06-27 09:14:42.796 15577 15617 D BufferPoolAccessor2.0: bufferpool2 0x7ccb1d1a28 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+06-27 09:14:42.797 15577 15617 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7ccb1d1a28 cached: 0/0M, 0/0% in use; allocs: 7, 14% recycled; transfers: 24, 75% unfetched
+06-27 09:14:42.799 15577 17650 I CCodec  : Created component [c2.android.vorbis.decoder]
+06-27 09:14:42.800 15577 17650 D CCodecConfig: read media type: audio/vorbis
+06-27 09:14:42.804 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+06-27 09:14:42.805 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+06-27 09:14:42.806 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+06-27 09:14:42.806 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+06-27 09:14:42.807 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+06-27 09:14:42.807 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+06-27 09:14:42.807 15577 17650 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+06-27 09:14:42.811 15577 17650 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+06-27 09:14:42.811 15577 17650 D CCodecConfig: c2 config diff is Dict {
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 input.delay.value = 0
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   string output.media-type.value = "audio/raw"
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+06-27 09:14:42.811 15577 17650 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+06-27 09:14:42.811 15577 17650 D CCodecConfig: }
+06-27 09:14:42.816 15577 17650 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+06-27 09:14:42.816 15577 17650 D CCodecConfig: no c2 equivalents for durationUs
+06-27 09:14:42.816 15577 17650 D CCodecConfig: no c2 equivalents for track-id
+06-27 09:14:42.816 15577 17650 D CCodecConfig: no c2 equivalents for csd-1
+06-27 09:14:42.816 15577 17650 D CCodecConfig: no c2 equivalents for flags
+06-27 09:14:42.818 15577 17650 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+06-27 09:14:42.818 15577 17650 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+06-27 09:14:42.819 15577 17650 W Codec2Client: query -- param skipped: index = 1107298332.
+06-27 09:14:42.819 15577 17650 D CCodec  : encoding statistics level = 0
+06-27 09:14:42.819 15577 17650 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t bitrate = 96000
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t channel-count = 1
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t max-input-size = 32768
+06-27 09:14:42.819 15577 17650 D CCodec  :   string mime = "audio/vorbis"
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t sample-rate = 44100
+06-27 09:14:42.819 15577 17650 D CCodec  : }
+06-27 09:14:42.819 15577 17650 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t channel-count = 1
+06-27 09:14:42.819 15577 17650 D CCodec  :   string mime = "audio/raw"
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t sample-rate = 44100
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t channel-mask = 1
+06-27 09:14:42.819 15577 17650 D CCodec  :   int32_t android._config-pcm-encoding = 2
+06-27 09:14:42.819 15577 17650 D CCodec  : }
+06-27 09:14:42.820 15577 17650 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+06-27 09:14:42.820 15577 17650 W AString : ctor got NULL, using empty string instead
+06-27 09:14:42.821 15577 17650 W Codec2Client: query -- param skipped: index = 1342179345.
+06-27 09:14:42.821 15577 17650 W Codec2Client: query -- param skipped: index = 2415921170.
+06-27 09:14:42.822 15577 17650 D CCodecBufferChannel: [c2.android.vorbis.decoder#496] Created input block pool with allocatorID 16 => poolID 41 - OK (0)
+06-27 09:14:42.827 15577 17650 I CCodecBufferChannel: [c2.android.vorbis.decoder#496] Created output block pool with allocatorID 16 => poolID 262 - OK
+06-27 09:14:42.828 15577 17650 D CCodecBufferChannel: [c2.android.vorbis.decoder#496] Configured output block pool ids 262 => OK
+06-27 09:14:42.868 15577 15577 D InsetsController: show(ime(), fromIme=true)
+06-27 09:14:42.875 15577 17650 D CCodecBufferChannel: [c2.android.vorbis.decoder#496] MediaCodec discarded an unknown buffer
+06-27 09:14:42.875 15577 17650 D CCodecBufferChannel: [c2.android.vorbis.decoder#496] MediaCodec discarded an unknown buffer
+06-27 09:14:42.875 15577 17650 D CCodecBufferChannel: [c2.android.vorbis.decoder#496] MediaCodec discarded an unknown buffer
+06-27 09:14:42.875 15577 17650 I Codec2-HalSelection: selection: hidl
+06-27 09:14:42.877 15577 17654 I Codec2-HalSelection: selection: hidl
+06-27 09:14:42.877 15577 17650 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+06-27 09:14:42.901 15577 15577 I ImeTracker: com.termux:becbd130: onShown
+06-27 09:14:42.983 15577 15577 I ImeTracker: com.termux:a66e7bb7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+06-27 09:14:42.984 15577 15577 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{af6a58a VFED.V.L. .F...... 0,0-708,967 #7f080191 app:id/terminal_view aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+06-27 09:14:42.999 15577 15577 D InsetsController: show(ime(), fromIme=true)
+06-27 09:14:42.999 15577 15577 I ImeTracker: com.termux:a66e7bb7: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+06-27 09:14:43.559 15577 15577 I ImeTracker: com.termux:d65ba731: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+06-27 09:14:43.559 15577 15577 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{af6a58a VFED.V.L. .F...... 0,0-708,967 #7f080191 app:id/terminal_view aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+06-27 09:14:43.564 15577 15577 D InsetsController: show(ime(), fromIme=true)
+06-27 09:14:43.564 15577 15577 I ImeTracker: com.termux:d65ba731: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+06-27 09:14:44.533 15577 17655 D mali_gralloc: register: id=2490000617f, handle=0x7ccb380ea0, importpid=15577
+06-27 09:14:44.535 15577 17655 D mali_gralloc: register: id=24900006180, handle=0x7ccb382640, importpid=15577
+06-27 09:14:44.536 15577 17655 D mali_gralloc: register: id=24900006181, handle=0x7ccb382720, importpid=15577
+06-27 09:14:44.537 15577 17655 D mali_gralloc: register: id=24900006182, handle=0x7ccb382800, importpid=15577
+06-27 09:14:44.555 15577 17656 D mali_gralloc: register: id=24900006183, handle=0x7ccb382560, importpid=15577
+06-27 09:14:44.558 15577 17656 D mali_gralloc: register: id=24900006184, handle=0x7ccb382b80, importpid=15577
+06-27 09:14:44.559 15577 17656 D mali_gralloc: register: id=24900006185, handle=0x7ccb382c60, importpid=15577
+06-27 09:14:44.559 15577 17656 D mali_gralloc: register: id=24900006186, handle=0x7ccb382e20, importpid=15577
+06-27 09:14:44.569 15577 17657 D mali_gralloc: register: id=24900006187, handle=0x7ccb382fe0, importpid=15577
+06-27 09:14:44.569 15577 17657 D mali_gralloc: register: id=24900006188, handle=0x7ccb382aa0, importpid=15577
+06-27 09:14:44.571 15577 17657 D mali_gralloc: register: id=24900006189, handle=0x7ccb383360, importpid=15577
+06-27 09:14:44.571 15577 17657 D mali_gralloc: register: id=2490000618a, handle=0x7ccb383600, importpid=15577
+06-27 09:14:45.090 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fbc0a00
+06-27 09:14:45.092 15577 15594 D mali_gralloc: unregister: id=24900006182, handle=0x7ccb382800, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.092 15577 15594 D mali_gralloc: unregister: id=24900006181, handle=0x7ccb382720, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.093 15577 15594 D mali_gralloc: unregister: id=24900006180, handle=0x7ccb382640, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.094 15577 15577 D mali_gralloc: unregister: id=2490000617f, handle=0x7ccb380ea0, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.100 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@14085d7
+06-27 09:14:45.102 15577 15594 D mali_gralloc: unregister: id=24900006186, handle=0x7ccb382e20, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.102 15577 15594 D mali_gralloc: unregister: id=24900006185, handle=0x7ccb382c60, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.103 15577 15594 D mali_gralloc: unregister: id=24900006184, handle=0x7ccb382b80, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.104 15577 15577 D mali_gralloc: unregister: id=24900006183, handle=0x7ccb382560, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.366 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cadf63a
+06-27 09:14:45.368 15577 15594 D mali_gralloc: unregister: id=2490000618a, handle=0x7ccb383600, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.369 15577 15594 D HWUI    : endAllActiveAnimators on 0x7d641bbe00 (RippleDrawable) with handle 0x7ccb179f80
+06-27 09:14:45.384 15577 15586 D mali_gralloc: unregister: id=24900006189, handle=0x7ccb383360, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.385 15577 15586 D mali_gralloc: unregister: id=24900006188, handle=0x7ccb382aa0, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.386 15577 15586 D mali_gralloc: unregister: id=24900006187, handle=0x7ccb382fe0, base=0x0, importpid=15577, clone_count=0
+06-27 09:14:45.679 17659 17659 W bash    : type=1400 audit(0.0:384088): avc:  granted  { execute } for  name="git" dev="dm-52" ino=227139 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:45.683 17659 17659 W bash    : type=1400 audit(0.0:384089): avc:  granted  { execute } for  name="git" dev="dm-52" ino=227139 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:45.683 17659 17659 W bash    : type=1400 audit(0.0:384090): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/libexec/git-core/git" dev="dm-52" ino=227139 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:45.683 17659 17659 W git     : type=1400 audit(0.0:384091): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/libexec/git-core/git" dev="dm-52" ino=227139 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:45.687 17659 17659 W git     : type=1400 audit(0.0:384092): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 09:14:47.799 15577 15616 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+06-27 09:14:48.799 15577 15616 D BufferPoolAccessor2.0: bufferpool2 0x7ccf308a28 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+06-27 09:14:48.800 15577 15616 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+06-27 09:14:52.995 17664 17664 W bash    : type=1400 audit(0.0:384101): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:52.995 17663 17663 W bash    : type=1400 audit(0.0:384102): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:52.995 17664 17664 W bash    : type=1400 audit(0.0:384103): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:52.995 17663 17663 W bash    : type=1400 audit(0.0:384104): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:14:52.995 17664 17664 W bash    : type=1400 audit(0.0:384105): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
