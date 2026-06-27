@@ -1,0 +1,11 @@
+  PID TTY          TIME CMD
+  898 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+ 3181 pts/0    00:00:00 ps
+ 3182 pts/0    00:00:00 ps
+15628 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+15653 ?        00:00:00 /data/data/com.termux/files/usr/bin/runsvdir
+15654 ?        00:00:00 runsv
+15655 ?        00:00:00 runsv
+15656 ?        00:00:00 svlogd
+15657 ?        00:00:00 svlogd
+32552 pts/0    00:00:00 bash

@@ -1,0 +1,52 @@
+--------- beginning of main
+06-27 09:46:36.335 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6588102
+06-27 09:46:36.337 15577 15594 D mali_gralloc: unregister: id=2490000687c, handle=0x7d6410b920, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:36.345 15577  2840 D mali_gralloc: unregister: id=2490000687b, handle=0x7d6410b760, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:36.346 15577  2840 D mali_gralloc: unregister: id=2490000687a, handle=0x7d6410b3e0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:36.346 15577  2840 D mali_gralloc: unregister: id=24900006879, handle=0x7d6410b300, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:36.964 15577  3150 D mali_gralloc: register: id=2490000687d, handle=0x7d6410ace0, importpid=15577
+06-27 09:46:36.965 15577  3150 D mali_gralloc: register: id=2490000687e, handle=0x7d6410b760, importpid=15577
+06-27 09:46:36.967 15577  3150 D mali_gralloc: register: id=2490000687f, handle=0x7d6410b920, importpid=15577
+06-27 09:46:36.968 15577  3150 D mali_gralloc: register: id=24900006880, handle=0x7d6410b3e0, importpid=15577
+06-27 09:46:37.069 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2583fe
+06-27 09:46:37.070 15577 15594 D mali_gralloc: unregister: id=2490000687e, handle=0x7d6410b760, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:37.082 15577 23584 D mali_gralloc: unregister: id=2490000687d, handle=0x7d6410ace0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:37.083 15577 23584 D mali_gralloc: unregister: id=2490000687f, handle=0x7d6410b920, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:37.083 15577 23584 D mali_gralloc: unregister: id=24900006880, handle=0x7d6410b3e0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:38.582 15577  3157 D mali_gralloc: register: id=24900006881, handle=0x7d6410b760, importpid=15577
+06-27 09:46:38.585 15577  3157 D mali_gralloc: register: id=24900006882, handle=0x7d6410b920, importpid=15577
+06-27 09:46:38.586 15577  3157 D mali_gralloc: register: id=24900006883, handle=0x7d6410b300, importpid=15577
+06-27 09:46:38.587 15577  3157 D mali_gralloc: register: id=24900006884, handle=0x7d6410b3e0, importpid=15577
+06-27 09:46:38.886 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@22ee1ba
+06-27 09:46:38.888 15577 15594 D mali_gralloc: unregister: id=24900006882, handle=0x7d6410b920, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:38.897 15577  2840 D mali_gralloc: unregister: id=24900006881, handle=0x7d6410b760, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:38.899 15577  2840 D mali_gralloc: unregister: id=24900006883, handle=0x7d6410b300, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:38.899 15577  2840 D mali_gralloc: unregister: id=24900006884, handle=0x7d6410b3e0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:39.875 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5c415f9
+06-27 09:46:39.877 15577 15594 D mali_gralloc: unregister: id=24900006873, handle=0x7d6410aea0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:39.878 15577 15594 D mali_gralloc: unregister: id=24900006872, handle=0x7d6410adc0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:39.880 15577 15577 D mali_gralloc: unregister: id=24900006874, handle=0x7d6410af80, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:39.880 15577 15577 D mali_gralloc: unregister: id=24900006871, handle=0x7d40615e80, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:40.022 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@57d579a
+06-27 09:46:40.024 15577 15594 D mali_gralloc: unregister: id=2490000686e, handle=0x7d6410a5e0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:40.025 15577 15594 D mali_gralloc: unregister: id=2490000686d, handle=0x7d6410a500, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:40.026 15577 15577 D mali_gralloc: unregister: id=2490000686f, handle=0x7d6410a7a0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:40.026 15577 15577 D mali_gralloc: unregister: id=24900006870, handle=0x7d6410a880, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:40.955 15577  3158 D mali_gralloc: register: id=24900006885, handle=0x7d6410a7a0, importpid=15577
+06-27 09:46:40.957 15577  3158 D mali_gralloc: register: id=24900006886, handle=0x7d6410a880, importpid=15577
+06-27 09:46:40.959 15577  3158 D mali_gralloc: register: id=24900006887, handle=0x7d6410ac00, importpid=15577
+06-27 09:46:40.960 15577  3158 D mali_gralloc: register: id=24900006888, handle=0x7d6410ace0, importpid=15577
+06-27 09:46:42.633 15577  3162 D mali_gralloc: register: id=24900006889, handle=0x7d6410af80, importpid=15577
+06-27 09:46:42.636 15577  3162 D mali_gralloc: register: id=2490000688a, handle=0x7d6410b300, importpid=15577
+06-27 09:46:42.637 15577  3162 D mali_gralloc: register: id=2490000688b, handle=0x7d6410b3e0, importpid=15577
+06-27 09:46:42.639 15577  3162 D mali_gralloc: register: id=2490000688c, handle=0x7d6410b760, importpid=15577
+06-27 09:46:42.971 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c3da8ca
+06-27 09:46:42.972 15577 15594 D mali_gralloc: unregister: id=2490000688a, handle=0x7d6410b300, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:42.989 15577 29670 D mali_gralloc: unregister: id=24900006889, handle=0x7d6410af80, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:42.990 15577 29670 D mali_gralloc: unregister: id=2490000688b, handle=0x7d6410b3e0, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:42.990 15577 29670 D mali_gralloc: unregister: id=2490000688c, handle=0x7d6410b760, base=0x0, importpid=15577, clone_count=0
+06-27 09:46:44.811  3168  3168 W bash    : type=1400 audit(0.0:495278): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:46:44.811  3167  3167 W bash    : type=1400 audit(0.0:495277): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:46:44.811  3168  3168 W bash    : type=1400 audit(0.0:495279): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:46:44.811  3167  3167 W bash    : type=1400 audit(0.0:495280): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:46:44.811  3167  3167 W bash    : type=1400 audit(0.0:495282): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
