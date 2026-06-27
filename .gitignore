@@ -1,0 +1,19 @@
+Android_Backup/
+Android_Backup_*.zip
+Android_Backup_Max.7z
+Import/
+Organized/
+Evidence_Organized/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.3gp
+*.7z
+Evidence_Final/07_Archives.zip
+Evidence_Final/Archives/
+*.pending*
+Evidence_Final/Spreadsheets/Google Passwords.csv
+Evidence_Final/Spreadsheets/Google password silent.csv
+Evidence_Final/Spreadsheets/Google Passwords.csv
+Evidence_Final/Spreadsheets/Google password silent.csv

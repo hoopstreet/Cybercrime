@@ -1,0 +1,238 @@
+--------- beginning of main
+06-27 08:43:05.875 15577 15577 D VRI[PopupWindow:52a0f13]: visibilityChanged oldVisibility=false newVisibility=true
+06-27 08:43:05.876 15577 15577 D VRI[PopupWindow:b9a7218]: visibilityChanged oldVisibility=false newVisibility=true
+06-27 08:43:05.900 15577 29597 D mali_gralloc: register: id=24900005919, handle=0x7cda2928c0, importpid=15577
+06-27 08:43:05.906 15577 29597 D mali_gralloc: register: id=2490000591a, handle=0x7cda2945a0, importpid=15577
+06-27 08:43:05.908 15577 29597 D mali_gralloc: register: id=2490000591b, handle=0x7cda293f80, importpid=15577
+06-27 08:43:05.909 15577 29597 D mali_gralloc: register: id=2490000591c, handle=0x7cda294ae0, importpid=15577
+06-27 08:43:05.926 15577 29598 D mali_gralloc: register: id=2490000591d, handle=0x7cda295100, importpid=15577
+06-27 08:43:05.927 15577 29598 D mali_gralloc: register: id=2490000591e, handle=0x7cda295720, importpid=15577
+06-27 08:43:05.928 15577 29598 D mali_gralloc: register: id=2490000591f, handle=0x7cda2959c0, importpid=15577
+06-27 08:43:05.929 15577 29598 D mali_gralloc: register: id=24900005920, handle=0x7cda295b80, importpid=15577
+06-27 08:43:05.956 15577 29599 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+06-27 08:43:05.959 15577 29600 D CCodec  : allocate(c2.android.vorbis.decoder)
+06-27 08:43:05.959 15577 29600 I Codec2-HalSelection: selection: hidl
+06-27 08:43:05.962 15577 29601 D mali_gralloc: register: id=24900005921, handle=0x7cda297be0, importpid=15577
+06-27 08:43:05.964 15577 29601 D mali_gralloc: register: id=24900005922, handle=0x7cda298120, importpid=15577
+06-27 08:43:05.964 15577 29600 I CCodec  : setting up 'default' as default (vendor) store
+06-27 08:43:05.965 15577 29601 D mali_gralloc: register: id=24900005923, handle=0x7ccf237380, importpid=15577
+06-27 08:43:05.966 15577 29601 D mali_gralloc: register: id=24900005924, handle=0x7ccf237460, importpid=15577
+06-27 08:43:05.978 15577 15617 D BufferPoolAccessor2.0: bufferpool2 0x7ccf2a7e28 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+06-27 08:43:05.978 15577 15617 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7ccf2a7e28 cached: 0/0M, 0/0% in use; allocs: 7, 14% recycled; transfers: 24, 75% unfetched
+06-27 08:43:05.980 15577 29600 I CCodec  : Created component [c2.android.vorbis.decoder]
+06-27 08:43:05.981 15577 29600 D CCodecConfig: read media type: audio/vorbis
+06-27 08:43:05.987 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+06-27 08:43:05.988 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+06-27 08:43:05.988 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+06-27 08:43:05.988 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+06-27 08:43:05.988 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+06-27 08:43:05.989 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+06-27 08:43:05.989 15577 29600 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+06-27 08:43:05.991 15577 29600 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+06-27 08:43:05.991 15577 29600 D CCodecConfig: c2 config diff is Dict {
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 input.delay.value = 0
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   string output.media-type.value = "audio/raw"
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+06-27 08:43:05.991 15577 29600 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+06-27 08:43:05.991 15577 29600 D CCodecConfig: }
+06-27 08:43:05.994 15577 15577 W Choreographer: Already have a pending vsync event.  There should only be one at a time.
+06-27 08:43:05.994 15577 29600 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+06-27 08:43:05.994 15577 29600 D CCodecConfig: no c2 equivalents for durationUs
+06-27 08:43:05.994 15577 29600 D CCodecConfig: no c2 equivalents for track-id
+06-27 08:43:05.994 15577 29600 D CCodecConfig: no c2 equivalents for csd-1
+06-27 08:43:05.994 15577 29600 D CCodecConfig: no c2 equivalents for flags
+06-27 08:43:05.995 15577 29600 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+06-27 08:43:05.995 15577 29600 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+06-27 08:43:05.995 15577 29600 W Codec2Client: query -- param skipped: index = 1107298332.
+06-27 08:43:05.995 15577 29600 D CCodec  : encoding statistics level = 0
+06-27 08:43:05.995 15577 29600 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+06-27 08:43:05.995 15577 29600 D CCodec  :   int32_t bitrate = 96000
+06-27 08:43:05.995 15577 29600 D CCodec  :   int32_t channel-count = 1
+06-27 08:43:05.995 15577 29600 D CCodec  :   int32_t max-input-size = 32768
+06-27 08:43:05.995 15577 29600 D CCodec  :   string mime = "audio/vorbis"
+06-27 08:43:05.995 15577 29600 D CCodec  :   int32_t sample-rate = 44100
+06-27 08:43:05.995 15577 29600 D CCodec  : }
+06-27 08:43:05.996 15577 29600 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+06-27 08:43:05.996 15577 29600 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+06-27 08:43:05.996 15577 29600 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+06-27 08:43:05.996 15577 29600 D CCodec  :   int32_t channel-count = 1
+06-27 08:43:05.996 15577 29600 D CCodec  :   string mime = "audio/raw"
+06-27 08:43:05.996 15577 29600 D CCodec  :   int32_t sample-rate = 44100
+06-27 08:43:05.996 15577 29600 D CCodec  :   int32_t channel-mask = 1
+06-27 08:43:05.996 15577 29600 D CCodec  :   int32_t android._config-pcm-encoding = 2
+06-27 08:43:05.996 15577 29600 D CCodec  : }
+06-27 08:43:05.996 15577 29600 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+06-27 08:43:05.996 15577 29600 W AString : ctor got NULL, using empty string instead
+06-27 08:43:05.997 15577 29600 W Codec2Client: query -- param skipped: index = 1342179345.
+06-27 08:43:05.997 15577 29600 W Codec2Client: query -- param skipped: index = 2415921170.
+06-27 08:43:05.998 15577 29600 D CCodecBufferChannel: [c2.android.vorbis.decoder#54] Created input block pool with allocatorID 16 => poolID 20 - OK (0)
+06-27 08:43:06.001 15577 29600 I CCodecBufferChannel: [c2.android.vorbis.decoder#54] Created output block pool with allocatorID 16 => poolID 216 - OK
+06-27 08:43:06.001 15577 29600 D CCodecBufferChannel: [c2.android.vorbis.decoder#54] Configured output block pool ids 216 => OK
+06-27 08:43:06.056 15577 29600 D CCodecBufferChannel: [c2.android.vorbis.decoder#54] MediaCodec discarded an unknown buffer
+06-27 08:43:06.056 15577 29600 D CCodecBufferChannel: [c2.android.vorbis.decoder#54] MediaCodec discarded an unknown buffer
+06-27 08:43:06.056 15577 29600 D CCodecBufferChannel: [c2.android.vorbis.decoder#54] MediaCodec discarded an unknown buffer
+06-27 08:43:06.056 15577 29600 I Codec2-HalSelection: selection: hidl
+06-27 08:43:06.059 15577 29603 I Codec2-HalSelection: selection: hidl
+06-27 08:43:06.061 15577 29600 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+06-27 08:43:06.124 15577 15577 D InsetsController: show(ime(), fromIme=true)
+06-27 08:43:06.168 15577 15577 I ImeTracker: com.termux:72134c8e: onShown
+06-27 08:43:06.242 15577 15577 I ImeTracker: com.termux:f8b5d0ea: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+06-27 08:43:06.243 15577 15577 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{af6a58a VFED.V.L. .F...... 0,0-708,967 #7f080191 app:id/terminal_view aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+06-27 08:43:06.246 15577 15577 D InsetsController: show(ime(), fromIme=true)
+06-27 08:43:06.247 15577 15577 I ImeTracker: com.termux:f8b5d0ea: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+06-27 08:43:07.709 15577 29608 D mali_gralloc: register: id=24900005929, handle=0x7ccf239ca0, importpid=15577
+06-27 08:43:07.713 15577 29608 D mali_gralloc: register: id=2490000592a, handle=0x7ccf239d80, importpid=15577
+06-27 08:43:07.714 15577 29608 D mali_gralloc: register: id=2490000592b, handle=0x7ccf239f40, importpid=15577
+06-27 08:43:07.715 15577 29608 D mali_gralloc: register: id=2490000592c, handle=0x7ccf239e60, importpid=15577
+06-27 08:43:07.730 15577 29609 D mali_gralloc: register: id=2490000592d, handle=0x7ccf239bc0, importpid=15577
+06-27 08:43:07.733 15577 29609 D mali_gralloc: register: id=2490000592e, handle=0x7ccf23a480, importpid=15577
+06-27 08:43:07.734 15577 29609 D mali_gralloc: register: id=2490000592f, handle=0x7ccf23aaa0, importpid=15577
+06-27 08:43:07.734 15577 29609 D mali_gralloc: register: id=24900005930, handle=0x7ccf23a720, importpid=15577
+06-27 08:43:07.751 15577 29610 D mali_gralloc: register: id=24900005931, handle=0x7ccf23ac60, importpid=15577
+06-27 08:43:07.753 15577 29610 D mali_gralloc: register: id=24900005932, handle=0x7ccf23ad40, importpid=15577
+06-27 08:43:07.755 15577 29610 D mali_gralloc: register: id=24900005933, handle=0x7cda2953a0, importpid=15577
+06-27 08:43:07.755 15577 15577 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+06-27 08:43:07.755 15577 15577 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+06-27 08:43:07.755 15577 15577 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+06-27 08:43:07.755 15577 15577 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+06-27 08:43:07.755 15577 29610 D mali_gralloc: register: id=24900005934, handle=0x7ccf23ae20, importpid=15577
+06-27 08:43:07.851 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7eb749d
+06-27 08:43:07.863 15577 16049 D mali_gralloc: unregister: id=24900005932, handle=0x7ccf23ad40, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:07.882 15577 16049 D mali_gralloc: unregister: id=24900005931, handle=0x7ccf23ac60, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:07.884 15577 16049 D mali_gralloc: unregister: id=24900005933, handle=0x7cda2953a0, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:07.884 15577 16049 D mali_gralloc: unregister: id=24900005934, handle=0x7ccf23ae20, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.088 15577 29611 D mali_gralloc: register: id=24900005935, handle=0x7ccf23a3a0, importpid=15577
+06-27 08:43:08.089 15577 29611 D mali_gralloc: register: id=24900005936, handle=0x7ccf23ae20, importpid=15577
+06-27 08:43:08.090 15577 29611 D mali_gralloc: register: id=24900005937, handle=0x7ccf23af00, importpid=15577
+06-27 08:43:08.091 15577 29611 D mali_gralloc: register: id=24900005938, handle=0x7ccf23afe0, importpid=15577
+06-27 08:43:08.804 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c2fad7b
+06-27 08:43:08.808 15577 15594 D mali_gralloc: unregister: id=2490000592c, handle=0x7ccf239e60, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.809 15577 15594 D mali_gralloc: unregister: id=2490000592b, handle=0x7ccf239f40, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.809 15577 15594 D mali_gralloc: unregister: id=2490000592a, handle=0x7ccf239d80, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.810 15577 15577 D mali_gralloc: unregister: id=24900005929, handle=0x7ccf239ca0, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.817 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a26d7ae
+06-27 08:43:08.819 15577 15594 D mali_gralloc: unregister: id=24900005930, handle=0x7ccf23a720, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.820 15577 15594 D mali_gralloc: unregister: id=2490000592f, handle=0x7ccf23aaa0, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.821 15577 15594 D mali_gralloc: unregister: id=2490000592e, handle=0x7ccf23a480, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:08.822 15577 15577 D mali_gralloc: unregister: id=2490000592d, handle=0x7ccf239bc0, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:09.085 15577 15577 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@55a0fd4
+06-27 08:43:09.092 15577 15594 D HWUI    : endAllActiveAnimators on 0x7ccb28a600 (RippleDrawable) with handle 0x7ccf4009c0
+06-27 08:43:09.104 15577 16078 D mali_gralloc: unregister: id=24900005938, handle=0x7ccf23afe0, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:09.119 15577 16078 D mali_gralloc: unregister: id=24900005937, handle=0x7ccf23af00, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:09.121 15577 16078 D mali_gralloc: unregister: id=24900005935, handle=0x7ccf23a3a0, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:09.121 15577 16078 D mali_gralloc: unregister: id=24900005936, handle=0x7ccf23ae20, base=0x0, importpid=15577, clone_count=0
+06-27 08:43:09.739 29613 29613 W bash    : type=1400 audit(0.0:282877): avc:  granted  { execute } for  name="pkg" dev="dm-52" ino=223976 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:09.739 29613 29613 W bash    : type=1400 audit(0.0:282878): avc:  granted  { execute } for  name="bash" dev="dm-52" ino=51940 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:09.739 29613 29613 W bash    : type=1400 audit(0.0:282879): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/bash" dev="dm-52" ino=51940 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:09.743 29613 29613 W bash    : type=1400 audit(0.0:282880): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/bash" dev="dm-52" ino=51940 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:09.747 29613 29613 W bash    : type=1400 audit(0.0:282881): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:09.747 29613 29613 W bash    : type=1400 audit(0.0:282882): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:09.747 29613 29613 W bash    : type=1400 audit(0.0:282883): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:10.980 15577 15616 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+06-27 08:43:11.981 15577 15616 D BufferPoolAccessor2.0: bufferpool2 0x7ccf2a7e28 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+06-27 08:43:11.981 15577 15616 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+06-27 08:43:12.019 29638 29638 W bash    : type=1400 audit(0.0:283031): avc:  granted  { execute } for  name="sed" dev="dm-52" ino=227203 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:12.019 29639 29639 W bash    : type=1400 audit(0.0:283032): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:12.019 29638 29638 W bash    : type=1400 audit(0.0:283033): avc:  granted  { execute } for  name="sed" dev="dm-52" ino=227203 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:12.019 29638 29638 W bash    : type=1400 audit(0.0:283034): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/sed" dev="dm-52" ino=227203 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:12.019 29639 29639 W bash    : type=1400 audit(0.0:283035): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:17.655 29690 29690 W bash    : type=1400 audit(0.0:283580): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:17.655 29690 29690 W bash    : type=1400 audit(0.0:283581): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:17.655 29690 29690 W bash    : type=1400 audit(0.0:283582): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:17.659 29690 29690 W date    : type=1400 audit(0.0:283583): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:17.659 29690 29690 W date    : type=1400 audit(0.0:283584): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:19.259 29710 29710 W apt     : type=1400 audit(0.0:283756): avc:  granted  { execute } for  name="gpgv" dev="dm-52" ino=225083 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:19.259 29710 29710 W apt     : type=1400 audit(0.0:283757): avc:  granted  { execute } for  name="gpgv" dev="dm-52" ino=225083 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:19.259 29710 29710 W apt     : type=1400 audit(0.0:283758): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/lib/apt/methods/gpgv" dev="dm-52" ino=225083 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:19.259 29710 29710 W gpgv    : type=1400 audit(0.0:283759): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/apt/methods/gpgv" dev="dm-52" ino=225083 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:19.263 29710 29710 W gpgv    : type=1400 audit(0.0:283760): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:20.319 29793 29793 W apt     : type=1400 audit(0.0:284470): avc:  granted  { execute } for  name="dpkg" dev="dm-52" ino=225917 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:20.319 29793 29793 W apt     : type=1400 audit(0.0:284471): avc:  granted  { execute } for  name="dpkg" dev="dm-52" ino=225917 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:20.319 29793 29793 W apt     : type=1400 audit(0.0:284472): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/dpkg" dev="dm-52" ino=225917 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:20.319 29793 29793 W dpkg    : type=1400 audit(0.0:284473): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/dpkg" dev="dm-52" ino=225917 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:20.323 29793 29793 W dpkg    : type=1400 audit(0.0:284474): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:21.335 29840 29840 W bash    : type=1400 audit(0.0:285097): avc:  granted  { execute } for  name="command-not-found" dev="dm-52" ino=225374 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:21.335 29840 29840 W bash    : type=1400 audit(0.0:285098): avc:  granted  { execute } for  name="command-not-found" dev="dm-52" ino=225374 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:21.335 29840 29840 W bash    : type=1400 audit(0.0:285099): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/libexec/termux/command-not-found" dev="dm-52" ino=225374 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:21.339 29840 29840 W command-not-fou: type=1400 audit(0.0:285100): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/libexec/termux/command-not-found" dev="dm-52" ino=225374 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:21.339 29840 29840 W command-not-fou: type=1400 audit(0.0:285101): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:22.339 29865 29865 W sha256sum: type=1400 audit(0.0:285470): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-support.so" dev="dm-52" ino=223045 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:22.339 29865 29865 W sha256sum: type=1400 audit(0.0:285471): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libiconv.so" dev="dm-52" ino=223003 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:22.339 29865 29865 W sha256sum: type=1400 audit(0.0:285472): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libpcre2-8.so" dev="dm-52" ino=222626 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:22.339 29865 29865 W sha256sum: type=1400 audit(0.0:285473): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-selinux.so" dev="dm-52" ino=222974 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:22.339 29865 29865 W sha256sum: type=1400 audit(0.0:285474): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libgmp.so" dev="dm-52" ino=223115 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:23.343 29907 29907 W find    : type=1400 audit(0.0:286092): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:23.343 29907 29907 W find    : type=1400 audit(0.0:286093): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:23.343 29907 29907 W find    : type=1400 audit(0.0:286094): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:23.343 29907 29907 W sha256sum: type=1400 audit(0.0:286095): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:23.347 29907 29907 W sha256sum: type=1400 audit(0.0:286096): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:24.359 29949 29949 W find    : type=1400 audit(0.0:286722): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:24.359 29949 29949 W find    : type=1400 audit(0.0:286723): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:24.359 29949 29949 W find    : type=1400 audit(0.0:286724): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:24.359 29949 29949 W sha256sum: type=1400 audit(0.0:286725): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:24.363 29949 29949 W sha256sum: type=1400 audit(0.0:286726): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:25.375 29992 29992 W find    : type=1400 audit(0.0:287367): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:25.375 29992 29992 W find    : type=1400 audit(0.0:287368): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:25.375 29992 29992 W find    : type=1400 audit(0.0:287369): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:25.375 29992 29992 W sha256sum: type=1400 audit(0.0:287370): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:25.375 29992 29992 W sha256sum: type=1400 audit(0.0:287371): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:26.379 30034 30034 W sha256sum: type=1400 audit(0.0:288001): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:26.379 30034 30034 W sha256sum: type=1400 audit(0.0:288002): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:26.379 30034 30034 W sha256sum: type=1400 audit(0.0:288003): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:26.379 30034 30034 W sha256sum: type=1400 audit(0.0:288004): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:26.383 30034 30034 W sha256sum: type=1400 audit(0.0:288005): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libiconv.so" dev="dm-52" ino=223003 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:27.383 30075 30075 W sha256sum: type=1400 audit(0.0:288620): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libgmp.so" dev="dm-52" ino=223115 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:27.383 30075 30075 W sha256sum: type=1400 audit(0.0:288621): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-selinux.so" dev="dm-52" ino=222974 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:27.383 30075 30075 W sha256sum: type=1400 audit(0.0:288622): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libiconv.so" dev="dm-52" ino=223003 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:27.383 30075 30075 W sha256sum: type=1400 audit(0.0:288623): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-support.so" dev="dm-52" ino=223045 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:27.383 30075 30075 W sha256sum: type=1400 audit(0.0:288624): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libpcre2-8.so" dev="dm-52" ino=222626 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:28.387 30122 30122 W find    : type=1400 audit(0.0:289317): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:28.387 30122 30122 W find    : type=1400 audit(0.0:289318): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:28.387 30122 30122 W find    : type=1400 audit(0.0:289319): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:28.387 30122 30122 W sha256sum: type=1400 audit(0.0:289320): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:28.387 30122 30122 W sha256sum: type=1400 audit(0.0:289321): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:29.391 30164 30164 W find    : type=1400 audit(0.0:289947): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:29.391 30164 30164 W find    : type=1400 audit(0.0:289948): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:29.391 30164 30164 W find    : type=1400 audit(0.0:289949): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:29.391 30164 30164 W sha256sum: type=1400 audit(0.0:289950): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:29.395 30164 30164 W sha256sum: type=1400 audit(0.0:289951): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:30.395 30206 30206 W find    : type=1400 audit(0.0:290577): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:30.395 30206 30206 W find    : type=1400 audit(0.0:290578): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:30.395 30206 30206 W find    : type=1400 audit(0.0:290579): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:30.395 30206 30206 W sha256sum: type=1400 audit(0.0:290580): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:30.399 30206 30206 W sha256sum: type=1400 audit(0.0:290581): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:31.399 30248 30248 W sha256sum: type=1400 audit(0.0:291215): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libpcre2-8.so" dev="dm-52" ino=222626 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:31.399 30248 30248 W sha256sum: type=1400 audit(0.0:291216): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libgmp.so" dev="dm-52" ino=223115 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:31.399 30248 30248 W sha256sum: type=1400 audit(0.0:291217): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-selinux.so" dev="dm-52" ino=222974 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:31.399 30248 30248 W sha256sum: type=1400 audit(0.0:291218): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libcrypto.so.3" dev="dm-52" ino=222494 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:31.399 30248 30248 W sha256sum: type=1400 audit(0.0:291219): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libiconv.so" dev="dm-52" ino=223003 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:32.407 30290 30290 W find    : type=1400 audit(0.0:291837): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:32.407 30290 30290 W find    : type=1400 audit(0.0:291838): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:32.407 30290 30290 W find    : type=1400 audit(0.0:291839): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:32.407 30290 30290 W sha256sum: type=1400 audit(0.0:291840): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:32.411 30290 30290 W sha256sum: type=1400 audit(0.0:291841): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:33.411 30331 30331 W sha256sum: type=1400 audit(0.0:292460): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libpcre2-8.so" dev="dm-52" ino=222626 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:33.411 30331 30331 W sha256sum: type=1400 audit(0.0:292461): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libcrypto.so.3" dev="dm-52" ino=222494 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:33.411 30331 30331 W sha256sum: type=1400 audit(0.0:292462): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libiconv.so" dev="dm-52" ino=223003 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:33.411 30331 30331 W sha256sum: type=1400 audit(0.0:292463): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-support.so" dev="dm-52" ino=223045 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:33.411 30331 30331 W sha256sum: type=1400 audit(0.0:292464): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libgmp.so" dev="dm-52" ino=223115 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:34.427 30372 30372 W find    : type=1400 audit(0.0:293067): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:34.427 30372 30372 W find    : type=1400 audit(0.0:293068): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:34.427 30372 30372 W find    : type=1400 audit(0.0:293069): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:34.427 30372 30372 W sha256sum: type=1400 audit(0.0:293070): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:34.427 30372 30372 W sha256sum: type=1400 audit(0.0:293071): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+06-27 08:43:35.431 30395 30395 W sha256sum: type=1400 audit(0.0:293420): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libgmp.so" dev="dm-52" ino=223115 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:35.431 30395 30395 W sha256sum: type=1400 audit(0.0:293421): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-support.so" dev="dm-52" ino=223045 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:35.431 30395 30395 W sha256sum: type=1400 audit(0.0:293422): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libiconv.so" dev="dm-52" ino=223003 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:35.431 30395 30395 W sha256sum: type=1400 audit(0.0:293423): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libandroid-selinux.so" dev="dm-52" ino=222974 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:35.431 30395 30395 W sha256sum: type=1400 audit(0.0:293424): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/lib/libtermux-exec-ld-preload.so" dev="dm-52" ino=217887 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:36.435 30407 30407 W bash    : type=1400 audit(0.0:293587): avc:  granted  { execute } for  name="logcat" dev="dm-52" ino=223966 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:36.435 30407 30407 W bash    : type=1400 audit(0.0:293588): avc:  granted  { execute } for  name="dash" dev="dm-52" ino=220958 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:36.435 30407 30407 W bash    : type=1400 audit(0.0:293589): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/dash" dev="dm-52" ino=220958 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:36.435 30407 30407 W sh      : type=1400 audit(0.0:293590): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/dash" dev="dm-52" ino=220958 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 08:43:36.439 30407 30407 W sh      : type=1400 audit(0.0:293591): avc:  denied  { search } for  name="tests" dev="dm-52" ino=125 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux

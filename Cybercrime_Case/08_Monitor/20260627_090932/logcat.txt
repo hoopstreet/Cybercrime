@@ -1,0 +1,89 @@
+--------- beginning of main
+06-27 09:09:32.319 13840 13840 W bash    : type=1400 audit(0.0:365611): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.319 13840 13840 W bash    : type=1400 audit(0.0:365612): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.319 13840 13840 W bash    : type=1400 audit(0.0:365613): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.323 13840 13840 W date    : type=1400 audit(0.0:365614): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.323 13839 13839 W bash    : type=1400 audit(0.0:365615): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.323 13839 13839 W bash    : type=1400 audit(0.0:365616): avc:  granted  { execute } for  name="coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.323 13839 13839 W bash    : type=1400 audit(0.0:365617): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-52" ino=223154 scontext=u:r:untrusted_app_27:s0:c87,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c87,c257,c512,c768 tclass=file app=com.termux
+06-27 09:09:32.595 15577 15577 D VRI[PopupWindow:52a0f13]: visibilityChanged oldVisibility=false newVisibility=true
+06-27 09:09:32.595 15577 15577 D VRI[PopupWindow:b9a7218]: visibilityChanged oldVisibility=false newVisibility=true
+06-27 09:09:32.624 15577 13852 D mali_gralloc: register: id=24900006026, handle=0x7cda2929a0, importpid=15577
+06-27 09:09:32.625 15577 13852 D mali_gralloc: register: id=24900006027, handle=0x7cda293f80, importpid=15577
+06-27 09:09:32.626 15577 13852 D mali_gralloc: register: id=24900006028, handle=0x7cda295640, importpid=15577
+06-27 09:09:32.627 15577 13852 D mali_gralloc: register: id=24900006029, handle=0x7cda295c60, importpid=15577
+06-27 09:09:32.644 15577 13853 D mali_gralloc: register: id=2490000602a, handle=0x7ccf237000, importpid=15577
+06-27 09:09:32.646 15577 13853 D mali_gralloc: register: id=2490000602b, handle=0x7ccf2371c0, importpid=15577
+06-27 09:09:32.647 15577 13853 D mali_gralloc: register: id=2490000602c, handle=0x7ccf237540, importpid=15577
+06-27 09:09:32.648 15577 13853 D mali_gralloc: register: id=2490000602d, handle=0x7ccb37f1c0, importpid=15577
+06-27 09:09:32.664 15577 13855 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+06-27 09:09:32.666 15577 13857 D CCodec  : allocate(c2.android.vorbis.decoder)
+06-27 09:09:32.666 15577 13857 I Codec2-HalSelection: selection: hidl
+06-27 09:09:32.669 15577 13857 I CCodec  : setting up 'default' as default (vendor) store
+06-27 09:09:32.676 15577 15617 D BufferPoolAccessor2.0: bufferpool2 0x7ccf229c28 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+06-27 09:09:32.676 15577 15617 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7ccf229c28 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+06-27 09:09:32.676 15577 13857 I CCodec  : Created component [c2.android.vorbis.decoder]
+06-27 09:09:32.677 15577 13857 D CCodecConfig: read media type: audio/vorbis
+06-27 09:09:32.682 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+06-27 09:09:32.682 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+06-27 09:09:32.683 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+06-27 09:09:32.683 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+06-27 09:09:32.683 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+06-27 09:09:32.683 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+06-27 09:09:32.684 15577 13857 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+06-27 09:09:32.684 15577 13859 D mali_gralloc: register: id=2490000602e, handle=0x7d3e326820, importpid=15577
+06-27 09:09:32.685 15577 13859 D mali_gralloc: register: id=2490000602f, handle=0x7cda2974e0, importpid=15577
+06-27 09:09:32.686 15577 13857 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+06-27 09:09:32.686 15577 13857 D CCodecConfig: c2 config diff is Dict {
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 input.delay.value = 0
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   string output.media-type.value = "audio/raw"
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+06-27 09:09:32.686 15577 13857 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+06-27 09:09:32.686 15577 13857 D CCodecConfig: }
+06-27 09:09:32.687 15577 13859 D mali_gralloc: register: id=24900006030, handle=0x7ccb381840, importpid=15577
+06-27 09:09:32.690 15577 13859 D mali_gralloc: register: id=24900006031, handle=0x7ccf239e60, importpid=15577
+06-27 09:09:32.690 15577 13857 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+06-27 09:09:32.690 15577 13857 D CCodecConfig: no c2 equivalents for durationUs
+06-27 09:09:32.690 15577 13857 D CCodecConfig: no c2 equivalents for track-id
+06-27 09:09:32.690 15577 13857 D CCodecConfig: no c2 equivalents for csd-1
+06-27 09:09:32.690 15577 13857 D CCodecConfig: no c2 equivalents for flags
+06-27 09:09:32.691 15577 13857 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+06-27 09:09:32.691 15577 13857 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+06-27 09:09:32.692 15577 13857 W Codec2Client: query -- param skipped: index = 1107298332.
+06-27 09:09:32.692 15577 13857 D CCodec  : encoding statistics level = 0
+06-27 09:09:32.692 15577 13857 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t bitrate = 96000
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t channel-count = 1
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t max-input-size = 32768
+06-27 09:09:32.692 15577 13857 D CCodec  :   string mime = "audio/vorbis"
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t sample-rate = 44100
+06-27 09:09:32.692 15577 13857 D CCodec  : }
+06-27 09:09:32.692 15577 13857 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t channel-count = 1
+06-27 09:09:32.692 15577 13857 D CCodec  :   string mime = "audio/raw"
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t sample-rate = 44100
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t channel-mask = 1
+06-27 09:09:32.692 15577 13857 D CCodec  :   int32_t android._config-pcm-encoding = 2
+06-27 09:09:32.692 15577 13857 D CCodec  : }
+06-27 09:09:32.692 15577 13857 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+06-27 09:09:32.692 15577 13857 W AString : ctor got NULL, using empty string instead
+06-27 09:09:32.693 15577 13857 W Codec2Client: query -- param skipped: index = 1342179345.
+06-27 09:09:32.693 15577 13857 W Codec2Client: query -- param skipped: index = 2415921170.
+06-27 09:09:32.694 15577 13857 D CCodecBufferChannel: [c2.android.vorbis.decoder#992] Created input block pool with allocatorID 16 => poolID 37 - OK (0)
+06-27 09:09:32.697 15577 13857 I CCodecBufferChannel: [c2.android.vorbis.decoder#992] Created output block pool with allocatorID 16 => poolID 254 - OK
+06-27 09:09:32.698 15577 13857 D CCodecBufferChannel: [c2.android.vorbis.decoder#992] Configured output block pool ids 254 => OK
+06-27 09:09:32.704 15577 15577 W Choreographer: Already have a pending vsync event.  There should only be one at a time.
+06-27 09:09:32.726 15577 13857 D CCodecBufferChannel: [c2.android.vorbis.decoder#992] MediaCodec discarded an unknown buffer
+06-27 09:09:32.726 15577 13857 D CCodecBufferChannel: [c2.android.vorbis.decoder#992] MediaCodec discarded an unknown buffer
+06-27 09:09:32.726 15577 13857 I Codec2-HalSelection: selection: hidl
+06-27 09:09:32.727 15577 13864 I Codec2-HalSelection: selection: hidl
+06-27 09:09:32.728 15577 13864 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+06-27 09:09:32.816 15577 15577 D InsetsController: show(ime(), fromIme=true)
+06-27 09:09:32.844 15577 15577 I ImeTracker: com.termux:ce4a1347: onShown

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+echo "[+] Packaging Case Report..."
+REP_FILE="Cybercrime_Case/09_Reports/case_summary_$(date +%Y%m%d).txt"
+echo "=== CYBERCRIME INVESTIGATION CASE SUMMARY ===" > "$REP_FILE"
+echo "Exported: $(date)" >> "$REP_FILE"
+echo "Repository Context: hoopstreet/Cybercrime" >> "$REP_FILE"
+echo "=============================================" >> "$REP_FILE"
+echo "Evidence Inventory Count: $(ls Cybercrime_Case/02_Evidence/ | wc -l)" >> "$REP_FILE"
+echo "Forensic Snapshots Saved: $(ls Cybercrime_Case/07_Device_Forensics/ | wc -l)" >> "$REP_FILE"
+echo "[✓] Master report compiled: $REP_FILE."
